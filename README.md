@@ -13,8 +13,9 @@ Using servo motors and a light sensor, the wearable creates continuous motion th
 - Wool (crochet)  
 - Translucent plastic  
 
-## Process
-(Upload your process images here later)
+## Featured Image
+![feature](https://github.com/user-attachments/assets/82320359-a2c2-49d7-999a-2dbde9737a00)
+
 
 ## Demo
-(Add your YouTube link here)
+https://www.youtube.com/watch?v=UUL9hIm8Gko
