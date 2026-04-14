@@ -34,11 +34,10 @@ void loop() {
   int activity = map(lightValue, 552, 925, 100, 0);
   activity = constrain(activity, 0, 100);
 
-  // =========================
-  // --- 360 SERVO CONTROL ---
-  // =========================
 
-  // --- 360 SERVO (ultra slow using pulse control) ---
+  // 360 SERVO CONTROL 
+
+  // 360 SERVO (ultra slow using pulse control)
 
   int targetSpeed = map(lightValue, 552, 925, 160, 101);
   targetSpeed = constrain(targetSpeed, 101, 160);
@@ -60,9 +59,8 @@ void loop() {
   servo360.write((int)currentSpeed);
   }
 
-  // =========================
-  // --- 180 SERVO CONTROL ---
-  // =========================
+  
+  // 180 SERVO CONTROL 
 
   int stepSize = map(activity, 0, 100, 1, 4);
 
@@ -74,9 +72,8 @@ void loop() {
 
   servo180.write(angle);
 
-  // =========================
-  // --- LIGHT SHOW ---
-  // =========================
+
+  // LIGHT SHOW
 
   int brightness = map(activity, 0, 100, 5, 50);
   brightness = constrain(brightness, 5, 50);
